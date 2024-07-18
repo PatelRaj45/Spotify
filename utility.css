@@ -1,0 +1,46 @@
+.red-border{
+    border: 2px solid red;
+}
+.m{
+    margin: 8px;
+}
+.borderradius{
+    border-radius: 8px;
+}
+.greytextcolor{
+    color: #a7a7a7;
+}
+.invert{
+    filter: invert(1);
+}
+.hamburgerContainer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+/* Webkit-based browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+    background: #1d1d1d; /* Scrollbar track background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    min-height: 30px; /* Adjust the thumb height */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Scrollbar thumb color on hover */
+}
+
+
+
+
+
+
+
